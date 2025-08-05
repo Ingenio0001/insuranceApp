@@ -17,17 +17,13 @@ export default function CreateEstimateCard({
   const typeIcon: Record<createEstimateCardProps["type"], JSX.Element> = {
     create: (
       <MaterialCommunityIcons
-        name="office-building-outline"
+        name="office-building"
         size={18}
         color="#6732dc"
       />
     ),
     estimate: (
-      <MaterialCommunityIcons
-        name="file-document-outline"
-        size={18}
-        color="#0e6c0a"
-      />
+      <MaterialCommunityIcons name="file-document" size={18} color="#0e6c0a" />
     ),
   };
   const selectedTypeIcon = typeIcon[type];

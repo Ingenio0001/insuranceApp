@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   tabLabel: {
     fontSize: 12,
-    marginTop: 4,
+    marginLeft: 3,
     alignSelf: "center",
   },
   focused: {
