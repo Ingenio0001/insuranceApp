@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "insuranceApp",
+    "scheme": "insuranceapp",
     "slug": "insuranceApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
