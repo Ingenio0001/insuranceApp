@@ -23,7 +23,7 @@ export default function Login() {
   const regex = /[^a-zA-Z]/;
   const router = useRouter();
 
-  const [focusedField, setFocusedField] = useState(null);
+  const [focusedField, setFocusedField] = useState<string | null>(null);
 
   const emailChange = () => {
     setValidEmail(true);

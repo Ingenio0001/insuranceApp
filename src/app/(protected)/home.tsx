@@ -52,6 +52,13 @@ export default function App() {
         ItemSeparatorComponent={ItemSeparator}
         contentContainerStyle={styles.contentContainer}
         showsVerticalScrollIndicator={false}
+        ListFooterComponent={
+          <View
+            style={{
+              height: 100,
+            }}
+          />
+        }
       />
     </View>
   );

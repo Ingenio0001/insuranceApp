@@ -11,6 +11,7 @@ export default function Header() {
       }}
     >
       <Image
+        // source={{uri:''}} // external format
         source={require("../../assets/logo.jpg")}
         style={{ height: 30, width: 30, marginRight: 5 }}
       />

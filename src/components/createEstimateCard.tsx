@@ -3,11 +3,11 @@ import { Text, StyleSheet, View } from "react-native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { JSX } from "react";
 
-type createEstimateCardProps = {
+interface createEstimateCardProps {
   text: string;
   subText: string;
   type: "create" | "estimate";
-};
+}
 
 export default function CreateEstimateCard({
   text,
